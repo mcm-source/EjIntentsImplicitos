@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo de Intents Implicitos" />
+
+    <Button
+        android:id="@+id/button_contactos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:onClick="onClickBtn"/>
+
+
+
+    <Button
+        android:id="@+id/button_activity_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar a activity 3"
+        android:onClick="onClickBtn"/>
+
+
+
+    <Button
+        android:id="@+id/button_activity_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar a activity 4"
+        android:onClick="onClickBtn"/>
+
+
+
+    <Button
+        android:id="@+id/button_activity_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar a activity 5"
+        android:onClick="onClickBtn"/>
+
+
+    <Button
+        android:id="@+id/button_activity_52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar a activity 6"
+        android:onClick="onClickBtn"/>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
