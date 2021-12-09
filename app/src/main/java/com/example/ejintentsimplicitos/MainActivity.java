@@ -25,8 +25,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.button_contactos:
                 //action + URI
                 i = new Intent(Intent.ACTION_VIEW, Uri.parse("content://contacts/people/"));
-
-
+                startActivity(i);
                 break;
 
 
