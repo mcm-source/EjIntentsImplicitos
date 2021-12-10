@@ -14,42 +14,48 @@
         android:id="@+id/button_contactos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="Lista de contactos"
         android:onClick="onClickBtn"/>
 
 
 
     <Button
-        android:id="@+id/button_activity_3"
+        android:id="@+id/button_dial"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cambiar a activity 3"
+        android:text="Llamar al dial"
         android:onClick="onClickBtn"/>
 
 
 
     <Button
-        android:id="@+id/button_activity_4"
+        android:id="@+id/button_dial_premarcado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cambiar a activity 4"
+        android:text="Llamar al dial con num. premarcado"
         android:onClick="onClickBtn"/>
 
 
 
     <Button
-        android:id="@+id/button_activity_5"
+        android:id="@+id/button_navegador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cambiar a activity 5"
+        android:text="Navegador"
         android:onClick="onClickBtn"/>
 
 
     <Button
-        android:id="@+id/button_activity_52"
+        android:id="@+id/button_mapa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cambiar a activity 6"
+        android:text="Ubicacion en mapa"
+        android:onClick="onClickBtn"/>
+    <Button
+        android:id="@+id/button_llamada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamada telefonica"
         android:onClick="onClickBtn"/>
 
 
